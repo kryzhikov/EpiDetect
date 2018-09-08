@@ -11,28 +11,38 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Пациет"
-        android:layout_marginStart="12dp"
+        android:text="21.04.2018 17:21"
+        android:paddingLeft="24dp"
+        android:paddingTop="12dp"
         android:layout_gravity="left"
-        android:textColor="#FFFF"
+        android:textColor="@color/colorTextHint"
         tools:ignore="RtlHardcoded" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Сережа сделал красиво"
+        android:text="Приступ"
+        android:textStyle="bold"
         android:layout_gravity="left"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
+        android:paddingLeft="24dp"
         android:textSize="24sp"
         android:textColor="@color/colorTextLight"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Длительнсоть: 1 минута 14 секунд"
+        android:layout_gravity="left"
+        android:textColor="@color/colorTextLight"
+        android:paddingLeft="24dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/lop"
-        android:scaleX="0.6"
-        android:scaleY="0.6"/>
+        android:scaleX="0.4"
+        android:scaleY="0.4"/>
 
     <Button
         android:id="@+id/btn_trsp"
@@ -43,7 +53,7 @@
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        android:text="Button"
+        android:text="Подробнее"
         android:textColor="@color/colorTextLight"
         android:textSize="30sp"
         android:layout_marginBottom="10dp"
