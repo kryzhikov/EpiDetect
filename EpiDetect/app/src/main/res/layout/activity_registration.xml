@@ -9,50 +9,50 @@
     android:layout_gravity="bottom"
     android:gravity="center">
 
+    <LinearLayout
+        android:layout_width="@dimen/ButtonWidth"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/reg_title">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextLight"
+            android:text="EpiDetect"
+            android:layout_marginLeft="12dp"
+            android:textSize="23sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
     <EditText
         android:id="@+id/fio"
-        style="@style/RobotoEditTextStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-
-        android:background="@drawable/register_text_back"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/reg_title"
+        style="@style/StandartEditText"
+        android:layout_centerHorizontal="true"
         android:hint="Surname Name"
-        android:inputType="textPersonName"
-        android:textColor="@color/colorTextLight"
-        android:textSize="30sp"
-        />
+        android:inputType="textPersonName"/>
 
     <EditText
         android:id="@+id/emgnum"
-        style="@style/RobotoEditTextStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/fio"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/register_text_back"
+        style="@style/StandartEditText"
+        android:layout_centerHorizontal="true"android:layout_below="@+id/fio"
         android:hint="Emergance number"
-        android:inputType="phone"
-        android:textColor="@color/colorTextLight"
-        android:textSize="30sp" />
+        android:inputType="phone" />
 
     <EditText
         android:id="@+id/parnum"
-        style="@style/RobotoEditTextStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/StandartEditText"
+        android:layout_centerHorizontal="true"
         android:layout_below="@id/emgnum"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/register_text_back"
         android:hint="Номер родителя"
-        android:inputType="phone"
-        android:textColor="@color/colorTextLight"
-        android:textSize="30sp" />
+        android:inputType="phone" />
 
     <LinearLayout
         android:id="@+id/swt"
@@ -60,102 +60,49 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/parnum"
         android:layout_centerHorizontal="true"
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="М"
-            android:textSize="30sp"
-            android:textColor="@color/colorTextLight"
-            android:layout_marginRight="10dp"/>
-
-        <Switch
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Ж"
-            android:textColor="@color/colorTextLight"
-            android:textSize="30sp"
-            android:layout_marginLeft="10dp"/>
+        android:orientation="horizontal">
 
     </LinearLayout>
 
     <EditText
         android:id="@+id/dob"
-        style="@style/RobotoEditTextStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/StandartEditText"
+        android:layout_centerHorizontal="true"
         android:layout_below="@id/swt"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/register_text_back"
         android:hint="Date of birth"
-        android:inputType="date"
-        android:textColor="@color/colorTextLight"
-        android:textSize="30sp" />
+        android:inputType="date" />
 
     <EditText
         android:id="@+id/mail"
-        style="@style/RobotoEditTextStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_below="@id/dob"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/register_text_back"
+        style="@style/StandartEditText"
+        android:layout_centerHorizontal="true"
         android:hint="E-mail"
-        android:inputType="textEmailAddress"
-        android:textColor="@color/colorTextLight"
-        android:textSize="30sp" />
+        android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/passwd"
-        style="@style/RobotoEditTextStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        style="@style/StandartEditText"
+        android:layout_centerHorizontal="true"
         android:layout_below="@id/mail"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/register_text_back"
         android:hint="Password"
-        android:inputType="textPassword"
-        android:textColor="@color/colorTextLight"
-        android:textSize="30sp" />
+        android:inputType="textPassword"/>
     <Button
-        android:layout_width="match_parent"
-
-        android:layout_height="wrap_content"
         style="@style/RedButton"
-        android:layout_below="@id/passwd"
+        android:layout_below="@id/password"
         android:layout_centerHorizontal="true"
         android:text="Sign up"
-        android:textSize="24sp"
         android:id="@+id/sign_up_btn"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         />
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         style="@style/DarkButton"
-        android:layout_below="@id/sign_up_btn"
         android:layout_centerHorizontal="true"
         android:text="Sign in"
         android:id="@+id/sign_in_btn"
-        android:textSize="24sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"/>
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"/>
 
 
 </RelativeLayout>
