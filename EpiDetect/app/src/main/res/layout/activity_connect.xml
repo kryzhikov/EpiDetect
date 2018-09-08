@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lay"
+    tools:context="com.clbrain.kirizhik.epidetect.ConnectActivity"
+    android:background="@color/colorPrimaryDark">
+
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        app:layout_constraintTop_toBottomOf="@+id/BTenable"
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        >
+        <Button
+            android:layout_margin="3dp"
+            android:id="@+id/onOff"
+            android:text="on/off"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="onOff"
+            android:soundEffectsEnabled="true"/>
+
+        <Button
+            android:layout_margin="3dp"
+            android:id="@+id/search"
+            android:text="discover"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="discover"
+            android:soundEffectsEnabled="true"/>
+
+        <Button
+            android:layout_margin="3dp"
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+            android:onClick="start"
+            android:soundEffectsEnabled="true"/>
+
+        <Button
+            android:layout_margin="3dp"
+            android:id="@+id/visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="visibility"
+            android:onClick="visibility"
+            android:soundEffectsEnabled="true"
+            android:visibility="gone"/>
+
+
+    </GridLayout>
+
+    <ListView
+        android:id="@+id/lvNewDevices"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#afafaf"
+        app:layout_constraintTop_toBottomOf="@id/buttons">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/BTenable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextLight"
+        app:layout_constraintLeft_toRightOf="@+id/Space1"
+        app:layout_constraintBottom_toTopOf="@+id/buttons"
+        android:text="Bluetooth" />
+
+    <TextView
+        android:id="@+id/SCenable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextLight"
+        app:layout_constraintLeft_toRightOf="@+id/Space2"
+        app:layout_constraintBottom_toTopOf="@+id/buttons"
+        android:text="Searching" />
+    
+
+    <TextView
+        android:id="@+id/Space3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextLight"
+        app:layout_constraintLeft_toRightOf="@+id/SCenable"
+        app:layout_constraintBottom_toTopOf="@+id/buttons"
+        android:text="   " />
+
+    <TextView
+        android:id="@+id/Space2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextLight"
+        app:layout_constraintLeft_toRightOf="@+id/BTenable"
+        app:layout_constraintBottom_toTopOf="@+id/buttons"
+        android:text="   " />
+
+    <TextView
+        android:id="@+id/Space1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextLight"
+        app:layout_constraintBottom_toTopOf="@+id/buttons"
+        android:text="   " />
+
+
+    <TextView
+        android:id="@+id/incomingMessages"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:maxLines="6"
+        android:scrollbars="vertical"
+        android:text="Status"
+        android:textColor="@color/colorTextLight"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/lvNewDevices"/>
+
+
+</android.support.constraint.ConstraintLayout>
