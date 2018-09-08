@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="-1dp">
+    android:layout_gravity="bottom">
 
-    <ImageButton
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/navigation_bar_shape"
+        android:layout_marginTop="23dp"/>
+    <RelativeLayout
+        android:id="@+id/down_buttons"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="@dimen/SquareIconSize"
+            android:layout_height="@dimen/SquareIconSize"
+            android:background="@drawable/ic_settings"
+            android:contentDescription="" />
+
+        <ImageView
+            android:layout_width="@dimen/SquareIconSize"
+            android:layout_height="@dimen/SquareIconSize"
+            android:background="@drawable/ic_settings"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="" />
+    </RelativeLayout>
+
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_settings"/>
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="@dimen/SquareIconSize"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_height="@dimen/SquareIconSize"
+            android:background="@drawable/my_floating_action_button"/>
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/SquareIconSize"
+            android:layout_height="@dimen/SquareIconSize"
+            android:background="@drawable/ic_settings"/>
+    </RelativeLayout>
 
 
 
-</LinearLayout>
+</RelativeLayout>

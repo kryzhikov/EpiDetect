@@ -45,4 +45,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp" />
 
+    <include
+        layout="@layout/navigate_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
 </RelativeLayout>
