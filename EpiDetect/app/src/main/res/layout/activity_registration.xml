@@ -128,26 +128,20 @@
         android:textColor="@color/colorTextLight"
         android:textSize="30sp" />
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         style="@style/RedButton"
         android:layout_below="@id/pop"
         android:layout_centerHorizontal="true"
         android:text="Sign up"
-        android:textSize="24sp"
         android:id="@+id/sign_up_btn"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"/>
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         style="@style/DarkButton"
         android:layout_below="@id/sign_up_btn"
         android:layout_centerHorizontal="true"
         android:text="Sign in"
         android:id="@+id/sign_in_btn"
-        android:textSize="24sp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"/>

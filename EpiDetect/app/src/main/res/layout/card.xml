@@ -38,11 +38,9 @@
         android:paddingLeft="24dp"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/lop"
-        android:scaleX="0.4"
-        android:scaleY="0.4"/>
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/lop"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -56,9 +54,7 @@
 
     <Button
         android:id="@+id/btn_trsp"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        style="@style/DarkButton"
+        style="@style/RedButton"
         android:text="Подробнее"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="12dp"

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="SquareIconSize">40dp</dimen>
-    <dimen name="BigSquareIconSize">46dp</dimen>
+    <dimen name="SquareIconSize">28dp</dimen>
+    <dimen name="BigIconWidth">77dp</dimen>
+    <dimen name="BigIconHeight">60dp</dimen>
+    <dimen name="ButtonHeight">44dp</dimen>
+    <dimen name="ButtonWidth">310dp</dimen>
 </resources>

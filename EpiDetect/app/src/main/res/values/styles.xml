@@ -13,6 +13,8 @@
         <item name="android:shadowColor">#A8A8A8</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">0</item>
+        <item name="android:layout_width">@dimen/ButtonWidth</item>
+        <item name="android:layout_height">@dimen/ButtonHeight</item>
         <item name="android:shadowRadius">5</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/colorTextLight</item>
@@ -25,6 +27,8 @@
         <item name="android:shadowColor">#A8A8A8</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">0</item>
+        <item name="android:layout_width">@dimen/ButtonWidth</item>
+        <item name="android:layout_height">@dimen/ButtonHeight</item>
         <item name="android:shadowRadius">5</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/colorTextLight</item>

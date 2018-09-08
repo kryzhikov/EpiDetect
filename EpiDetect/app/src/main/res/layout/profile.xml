@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    >
+    android:background="@color/colorPrimaryDark">
 
-    <LinearLayout
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:text="Иван"
+        android:id="@+id/username"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextLight"
+        android:layout_marginLeft="12dp"
+        android:textSize="22sp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Рыжиков  Кирилл"
-            android:layout_marginTop="10dp"
-            android:textColor="@color/colorTextLight"
-            android:layout_marginLeft="12dp"
-            android:textSize="22sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08.08.2018"
+        android:layout_below="@+id/username"
+        android:id="@+id/day"
+        android:textSize="12sp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorTextLight"
+        android:layout_marginBottom="9dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="14.08.2001"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="8dp"
-            android:textSize="18sp"
-            android:textColor="@color/colorTextLight"
-            android:layout_marginBottom="9dp"
-            />
-    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/username"
+        android:text="Настройки"
+        android:paddingStart="6dp"
+        android:paddingBottom="2dp"
+        android:layout_toRightOf="@+id/username"
+        android:textColor="@color/colorTextHint"/>
 
     <ImageView
         android:layout_width="104dp"
@@ -37,5 +44,5 @@
         android:scaleX="0.9"
         android:scaleY="0.9"
         android:src="@drawable/logo"
-        android:layout_marginLeft="80dp"/>
-</LinearLayout>
+        android:layout_alignParentEnd="true"/>
+</>

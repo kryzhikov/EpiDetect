@@ -4,56 +4,46 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
     android:layout_gravity="bottom">
 
 
-    <RelativeLayout
-        android:id="@+id/down_buttons"
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_marginTop="17dp"
-        android:paddingLeft="12dp"
-        android:paddingRight="12dp"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="4dp"
-            android:background="@drawable/navigation_bar_shape"
-            android:layout_alignParentTop="true"/>
-        <ImageView
-            android:layout_width="@dimen/SquareIconSize"
-            android:layout_height="@dimen/SquareIconSize"
-            android:background="@drawable/ic_settings"
-            android:padding="2dp"
-            android:contentDescription="" />
-
-        <ImageView
-            android:layout_width="@dimen/SquareIconSize"
-            android:layout_height="@dimen/SquareIconSize"
-            android:background="@drawable/ic_settings"
-            android:layout_alignParentEnd="true"
-            android:padding="2dp"
-            android:contentDescription="" />
-    </RelativeLayout>
+        android:layout_height="1dp"
+        android:background="@drawable/navigation_bar_shape" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_height="wrap_content">
+        android:layout_marginTop="-12dp">
         <ImageView
-            android:layout_width="@dimen/BigSquareIconSize"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:layout_height="@dimen/BigSquareIconSize"
+            android:layout_width="@dimen/BigIconWidth"
+            android:layout_height="@dimen/BigIconHeight"
+            android:layout_centerInParent="true"
             android:background="@drawable/my_floating_action_button"/>
         <ImageView
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
             android:layout_width="@dimen/SquareIconSize"
             android:layout_height="@dimen/SquareIconSize"
-            android:background="@drawable/ic_settings"/>
+            android:layout_centerInParent="true"
+            android:background="@drawable/four_squares_with_frame_shape"/>
     </RelativeLayout>
 
+
+        <ImageView
+            android:layout_width="@dimen/SquareIconSize"
+            android:layout_height="@dimen/SquareIconSize"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:background="@drawable/link"
+            android:contentDescription="" />
+
+        <ImageView
+            android:layout_width="@dimen/SquareIconSize"
+            android:layout_height="@dimen/SquareIconSize"
+            android:background="@drawable/settings_gears_1" />
 
 
 </RelativeLayout>
