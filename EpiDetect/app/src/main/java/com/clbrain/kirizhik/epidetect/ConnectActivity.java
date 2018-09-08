@@ -60,7 +60,7 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
     Button send;
     Button cls;
 
-    private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
+   private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
             if (action.equals(mBluetoothAdapter.ACTION_STATE_CHANGED)) {
@@ -222,7 +222,7 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
         lvNewDevices = (ListView) findViewById(R.id.lvNewDevices);
         BTenable = (TextView) findViewById(R.id.BTenable);
         SCenable = (TextView) findViewById(R.id.SCenable);
-      //  Visibility = (TextView) findViewById(R.id.visibility);
+        Visibility = (TextView) findViewById(R.id.visibility);
      //   etSend = (EditText) findViewById(R.id.editText);
       /**  cr = (CheckBox) findViewById(R.id.CR);
         lf = (CheckBox) findViewById(R.id.LF);**/

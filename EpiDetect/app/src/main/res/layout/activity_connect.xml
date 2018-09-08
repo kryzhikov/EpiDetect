@@ -93,6 +93,10 @@
         app:layout_constraintLeft_toRightOf="@+id/SCenable"
         app:layout_constraintBottom_toTopOf="@+id/buttons"
         android:text="   " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/visibility"/>
 
     <TextView
         android:id="@+id/Space2"
