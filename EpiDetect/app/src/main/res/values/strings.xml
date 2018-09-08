@@ -7,4 +7,5 @@
     <string name="invalid_password">Password is too short</string>
     <string name="incorrect_password">Password is incorrect</string>
     <string name="field_required">This field is required</string>
+    <string name="sign_up">Sign up</string>
 </resources>
