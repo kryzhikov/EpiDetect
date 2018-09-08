@@ -4,34 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistrationActivity">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/register_text_back"
-        android:textColor="@color/colorTextLight"
-        android:text="Ф.И.О"
-        android:textSize="24sp"
-        android:id="@+id/fio"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/emgnum"
-        android:background="@drawable/register_text_back"
-        android:textColor="@color/colorTextLight"
-        android:text="Экстренный номер"
-        android:textSize="24sp"
-        android:layout_below="@+id/fio"/>
+    tools:context=".RegistrationActivity"
+    android:background="@color/colorPrimaryDark">
 
-    <TextView
+    <EditText
+        android:id="@+id/fio"
+        style="@style/RobotoEditTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/register_text_back"
+        android:hint="Surname Name"
+        android:inputType="textPersonName"
         android:textColor="@color/colorTextLight"
-        android:text="Номер родителя"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/emgnum"
+        style="@style/RobotoEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fio"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/register_text_back"
+        android:hint="Emergance number"
+        android:inputType="phone"
+        android:textColor="@color/colorTextLight"
+        android:textSize="30sp" />
+
+    <EditText
         android:id="@+id/parnum"
+        style="@style/RobotoEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/emgnum"
-        android:textSize="24sp"/>
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/register_text_back"
+        android:hint="Номер родителя"
+        android:inputType="phone"
+        android:textColor="@color/colorTextLight"
+        android:textSize="30sp" />
 
     <LinearLayout
         android:id="@+id/swt"
@@ -39,60 +57,100 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/parnum"
         android:layout_centerHorizontal="true"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="М"
-            android:textSize="24sp" />
+            android:textSize="30sp"
+            android:textColor="@color/colorTextLight"
+            android:layout_marginRight="10dp"/>
 
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ж"
-            android:textSize="24sp" />
+            android:textColor="@color/colorTextLight"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"/>
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/register_text_back"
-        android:textColor="@color/colorTextLight"
-        android:textSize="24sp"
+    <EditText
         android:id="@+id/op"
-        android:layout_below="@id/swt"/>
-
-    <TextView
+        style="@style/RobotoEditTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/swt"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/register_text_back"
+        android:hint="Date of birth"
+        android:inputType="date"
         android:textColor="@color/colorTextLight"
-        android:textSize="24sp"
+        android:textSize="30sp" />
+
+    <EditText
         android:id="@+id/po"
-        android:layout_below="@id/op"/>
-
-    <TextView
+        style="@style/RobotoEditTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/op"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/register_text_back"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
         android:textColor="@color/colorTextLight"
-        android:textSize="24sp"
+        android:textSize="30sp" />
+
+    <EditText
         android:id="@+id/pop"
-        android:layout_below="@id/po"/>
+        style="@style/RobotoEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/po"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/register_text_back"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorTextLight"
+        android:textSize="30sp" />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/RedButton"
         android:layout_below="@id/pop"
         android:layout_centerHorizontal="true"
-        android:text="Sign in"/>
+        android:text="Sign up"
+        android:textSize="24sp"
+        android:id="@+id/sign_up_btn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DarkButton"
+        android:layout_below="@id/sign_up_btn"
+        android:layout_centerHorizontal="true"
+        android:text="Sign in"
+        android:id="@+id/sign_in_btn"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
 
 
 </RelativeLayout>
