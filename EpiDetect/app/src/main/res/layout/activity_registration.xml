@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegistrationActivity"
-    android:background="@color/colorPrimaryDark">
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="bottom"
+    android:gravity="center">
 
     <EditText
         android:id="@+id/fio"
@@ -14,12 +16,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:layout_marginTop="5dp"
+
         android:background="@drawable/register_text_back"
         android:hint="Surname Name"
         android:inputType="textPersonName"
         android:textColor="@color/colorTextLight"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        />
 
     <EditText
         android:id="@+id/emgnum"
@@ -129,6 +132,7 @@
         android:textSize="30sp" />
     <Button
         android:layout_width="match_parent"
+
         android:layout_height="wrap_content"
         style="@style/RedButton"
         android:layout_below="@id/pop"
@@ -138,7 +142,8 @@
         android:id="@+id/sign_up_btn"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"/>
+        android:layout_marginRight="25dp"
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
