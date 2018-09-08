@@ -17,25 +17,32 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="12dp"/>
 
-    <Button
-        android:id="@+id/btn_main_red"
-        android:layout_height="wrap_content"
-        android:layout_width="270dp"
-        style="@style/RedButton"
-        android:text="Button"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/card"
-        android:layout_marginTop="12dp"/>
 
-    <include
-        android:id="@+id/card"
-        layout="@layout/card"
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="90dp"
-        android:layout_below="@+id/prof"/>
+        android:layout_above="@+id/navigate_bar">
+        <include
+            android:id="@+id/card"
+            layout="@layout/card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:layout_below="@+id/prof"/>
+        <Button
+            android:id="@+id/btn_main_red"
+            android:layout_height="wrap_content"
+            android:layout_width="270dp"
+            style="@style/RedButton"
+            android:text="Button"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/card"
+            android:layout_marginTop="12dp"/>
+    </ScrollView>
+
+
     <include
         android:id="@+id/prof"
         layout="@layout/profile"
@@ -47,6 +54,7 @@
 
     <include
         layout="@layout/navigate_bar"
+        android:id="@+id/navigate_bar"
         android:layout_alignParentBottom="true"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content" />
