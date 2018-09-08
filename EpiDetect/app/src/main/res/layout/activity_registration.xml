@@ -85,7 +85,14 @@
         android:textColor="@color/colorTextLight"
         android:textSize="24sp"
         android:id="@+id/pop"
-        android:layout_below="@id/pop"/>
+        android:layout_below="@id/po"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/RedButton"
+        android:layout_below="@id/pop"
+        android:layout_centerHorizontal="true"
+        android:text="Sign in"/>
 
 
 </RelativeLayout>
