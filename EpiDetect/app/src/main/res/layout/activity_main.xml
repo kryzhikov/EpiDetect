@@ -14,7 +14,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="12dp"/>
 
     <Button
         android:id="@+id/btn_main_red"
@@ -30,14 +31,17 @@
         android:text="Button"
         android:textColor="#FFFFFF"
         android:textSize="24px"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="195dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/card"
+        android:layout_marginTop="12dp"/>
 
     <include
+        android:id="@+id/card"
         layout="@layout/card"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"/>
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
 
 </RelativeLayout>
