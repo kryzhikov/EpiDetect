@@ -19,18 +19,10 @@
 
     <Button
         android:id="@+id/btn_main_red"
-
+        android:layout_height="wrap_content"
         android:layout_width="270dp"
-        android:layout_height="60dp"
-        android:background="@drawable/buttonshape_red_main"
-
-        android:shadowColor="#A8A8A8"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
+        style="@style/RedButton"
         android:text="Button"
-        android:textColor="#FFFFFF"
-        android:textSize="24px"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/card"
         android:layout_marginTop="12dp"/>
