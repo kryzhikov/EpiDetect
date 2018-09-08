@@ -42,7 +42,8 @@
     <EditText
         android:id="@+id/emgnum"
         style="@style/StandartEditText"
-        android:layout_centerHorizontal="true"android:layout_below="@+id/fio"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/fio"
         android:hint="Emergance number"
         android:inputType="phone" />
 
