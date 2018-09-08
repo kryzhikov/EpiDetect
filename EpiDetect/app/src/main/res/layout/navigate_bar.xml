@@ -7,22 +7,24 @@
     android:orientation="horizontal"
     android:layout_gravity="bottom">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="4dp"
-        android:background="@drawable/navigation_bar_shape"
-        android:layout_marginTop="23dp"/>
+
     <RelativeLayout
         android:id="@+id/down_buttons"
         android:layout_width="match_parent"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="17dp"
         android:paddingLeft="12dp"
         android:paddingRight="12dp"
         android:layout_height="wrap_content">
         <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/navigation_bar_shape"
+            android:layout_alignParentTop="true"/>
+        <ImageView
             android:layout_width="@dimen/SquareIconSize"
             android:layout_height="@dimen/SquareIconSize"
             android:background="@drawable/ic_settings"
+            android:padding="2dp"
             android:contentDescription="" />
 
         <ImageView
@@ -30,6 +32,7 @@
             android:layout_height="@dimen/SquareIconSize"
             android:background="@drawable/ic_settings"
             android:layout_alignParentEnd="true"
+            android:padding="2dp"
             android:contentDescription="" />
     </RelativeLayout>
 
@@ -38,10 +41,10 @@
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content">
         <ImageView
-            android:layout_width="@dimen/SquareIconSize"
+            android:layout_width="@dimen/BigSquareIconSize"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_height="@dimen/SquareIconSize"
+            android:layout_height="@dimen/BigSquareIconSize"
             android:background="@drawable/my_floating_action_button"/>
         <ImageView
             android:layout_centerHorizontal="true"
