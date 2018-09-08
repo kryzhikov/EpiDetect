@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "538809819305",
+    "firebase_url": "https://epidetect-761b0.firebaseio.com",
+    "project_id": "epidetect-761b0",
+    "storage_bucket": "epidetect-761b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538809819305:android:bd49566e19661f25",
+        "android_client_info": {
+          "package_name": "com.clbrain.kirizhik.epidetect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538809819305-ul8u2g7dm5frm4cts19hpetrrj30edsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.clbrain.kirizhik.epidetect",
+            "certificate_hash": "05ffbba4724802258ced59748cdcd333541b6f2e"
+          }
+        },
+        {
+          "client_id": "538809819305-4bbkg6o5th3o6r6cvv5tuob6vc7jmdit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcoMaxpPYcPxv0lg2JLSgBGFBm1Vm8s5s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538809819305-4bbkg6o5th3o6r6cvv5tuob6vc7jmdit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
