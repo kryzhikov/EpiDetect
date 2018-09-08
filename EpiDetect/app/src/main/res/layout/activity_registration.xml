@@ -33,12 +33,13 @@
         android:layout_below="@id/emgnum"
         android:textSize="24sp"/>
 
-    <RelativeLayout
+    <LinearLayout
+        android:id="@+id/swt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_below="@+id/parnum"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/parnum">
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -57,28 +58,34 @@
             android:text="Ж"
             android:textSize="24sp" />
 
-    </RelativeLayout>
+    </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/register_text_back"
         android:textColor="@color/colorTextLight"
-        android:textSize="24sp"/>
+        android:textSize="24sp"
+        android:id="@+id/op"
+        android:layout_below="@id/swt"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/register_text_back"
         android:textColor="@color/colorTextLight"
-        android:textSize="24sp"/>
+        android:textSize="24sp"
+        android:id="@+id/po"
+        android:layout_below="@id/op"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/register_text_back"
         android:textColor="@color/colorTextLight"
-        android:textSize="24sp"/>
+        android:textSize="24sp"
+        android:id="@+id/pop"
+        android:layout_below="@id/pop"/>
 
 
 </RelativeLayout>
