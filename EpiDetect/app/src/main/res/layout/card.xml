@@ -38,7 +38,7 @@
         android:id="@+id/btn_trsp"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:background="@drawable/buttonshape_grey"
+        android:background="@drawable/dark_button"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
