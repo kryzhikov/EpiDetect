@@ -87,7 +87,7 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/op"
+        android:id="@+id/dob"
         style="@style/RobotoEditTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -102,11 +102,11 @@
         android:textSize="30sp" />
 
     <EditText
-        android:id="@+id/po"
+        android:id="@+id/mail"
         style="@style/RobotoEditTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/op"
+        android:layout_below="@id/dob"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginTop="20dp"
@@ -117,11 +117,11 @@
         android:textSize="30sp" />
 
     <EditText
-        android:id="@+id/pop"
+        android:id="@+id/passwd"
         style="@style/RobotoEditTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/po"
+        android:layout_below="@id/mail"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginTop="20dp"
@@ -135,7 +135,7 @@
 
         android:layout_height="wrap_content"
         style="@style/RedButton"
-        android:layout_below="@id/pop"
+        android:layout_below="@id/passwd"
         android:layout_centerHorizontal="true"
         android:text="Sign up"
         android:textSize="24sp"
