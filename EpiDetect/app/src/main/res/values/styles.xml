@@ -10,7 +10,6 @@
 
     <style name="DarkButton" parent="Base.TextAppearance.AppCompat.Button">
         <item name="android:background">@drawable/dark_button</item>
-        <item name=
     </style>
 
     <style name="RedButton" parent="Base.TextAppearance.AppCompat.Button">
