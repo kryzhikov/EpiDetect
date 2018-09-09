@@ -60,11 +60,11 @@
                 android:orientation="horizontal">
 
                 <Button
-                    style="@style/SmallDarkButton"
+                    style="@style/DarkButtonSelector"
                     android:text="Мужской"/>
 
                 <Button
-                    style="@style/SmallDarkButton"
+                    style="@style/DarkButtonSelector"
                     android:text="Женский"/>
             </LinearLayout>
 

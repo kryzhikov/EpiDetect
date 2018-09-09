@@ -22,8 +22,8 @@
         <item name="android:textAllCaps">false</item>
     </style>
 
-    <style name="SmallDarkButton" parent="Base.TextAppearance.AppCompat.Button">
-        <item name="android:background">@drawable/dark_button</item>
+    <style name="DarkButtonSelector" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/dark_button_selection</item>
         <item name="android:shadowColor">#A8A8A8</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">0</item>
@@ -52,6 +52,7 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textAllCaps">false</item>
     </style>
+
     <style name="StandartEditText" parent="Base.V7.Widget.AppCompat.EditText">
         <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/colorTextLight</item>
