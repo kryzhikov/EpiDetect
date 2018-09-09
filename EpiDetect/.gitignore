@@ -1,0 +1,4 @@
+/build
+Будет удалено app/build/
+.idea
+local.properties
