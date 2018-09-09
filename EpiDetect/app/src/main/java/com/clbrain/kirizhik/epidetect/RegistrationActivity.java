@@ -22,6 +22,14 @@ public class RegistrationActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),LoginActivity.class));
             }
         });
+        sign_up.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Регистрация и тп
+
+                //startActivity((new Intent(getApplicationContext(),MainActivity.class)));
+            }
+        });
 
     }
 }
