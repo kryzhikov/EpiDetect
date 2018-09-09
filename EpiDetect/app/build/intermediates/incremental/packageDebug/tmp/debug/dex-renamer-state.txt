@@ -1,4 +1,4 @@
-#Sun Sep 09 11:01:08 MSK 2018
+#Sun Sep 09 13:11:03 MSK 2018
 base.0=/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

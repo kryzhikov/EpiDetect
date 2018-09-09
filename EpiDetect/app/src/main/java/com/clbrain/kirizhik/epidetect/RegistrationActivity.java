@@ -13,7 +13,80 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+class User{
+    String uid,name,num,parnum,dob,email,sex;
 
+    public User() {
+    }
+
+    public User(String uid, String name, String num, String parnum, String dob, String email,String sex) {
+        this.uid = uid;
+        this.name = name;
+        this.num = num;
+        this.parnum = parnum;
+        this.dob = dob;
+        this.email = email;
+        this.sex = sex;
+    }
+
+    public String getUid() {
+        return uid;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getNum() {
+        return num;
+    }
+
+    public void setNum(String num) {
+        this.num = num;
+    }
+
+    public String getParnum() {
+        return parnum;
+    }
+
+    public void setParnum(String parnum) {
+        this.parnum = parnum;
+    }
+
+    public String getDob() {
+        return dob;
+    }
+
+    public void setDob(String dob) {
+        this.dob = dob;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+}
 public class RegistrationActivity extends AppCompatActivity {
     Button signIn;
     Button signUp;
@@ -26,7 +99,9 @@ public class RegistrationActivity extends AppCompatActivity {
     private EditText mDOB;
     private EditText mEmail;
     private EditText mPassword;
-
+    private FirebaseDatabase mFbdb;
+    private DatabaseReference mDbref;
+    private String sex;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +132,7 @@ public class RegistrationActivity extends AppCompatActivity {
             public void onClick(View v) {
                 men.setSelected(true);
                 women.setSelected(false);
+                sex="Мужской";
             }
         });
         women = findViewById(R.id.btn_women);
@@ -65,6 +141,7 @@ public class RegistrationActivity extends AppCompatActivity {
             public void onClick(View v) {
                 women.setSelected(true);
                 men.setSelected(false);
+                sex="Женский";
             }
         });
     }
@@ -82,6 +159,10 @@ public class RegistrationActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
+                            User user = new User(mAuth.getUid(),mName.getText().toString(),mNum.getText().toString(),mParNum.getText().toString(),mDOB.getText().toString(),mEmail.getText().toString(),sex);
+                            mFbdb = FirebaseDatabase.getInstance();
+                            mDbref = mFbdb.getReference();
+                            mDbref.child("users").child(mAuth.getCurrentUser().getUid()).setValue(user);
                             Toast.makeText(RegistrationActivity.this, "Sign up is successful", Toast.LENGTH_SHORT).show();
                             startActivity((new Intent(getApplicationContext(),MainActivity.class)));
                         }

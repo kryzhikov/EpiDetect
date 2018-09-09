@@ -93,7 +93,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_info_outline_white_48dp.png.flat",
@@ -181,7 +181,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -197,7 +197,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_light.xml.flat",
@@ -221,7 +221,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_icon_light.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -237,7 +237,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-hdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -253,15 +253,15 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_text_light_normal.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_text_disabled.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/anim_design_snackbar_in.xml.flat",
@@ -289,7 +289,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -341,7 +341,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat",
@@ -393,7 +393,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -581,7 +581,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/layout_abc_select_dialog_material.xml.flat",
@@ -613,7 +613,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -625,7 +625,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_sqr.xml.flat",
@@ -737,7 +737,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -821,7 +821,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
@@ -853,7 +853,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/color/common_google_signin_btn_text_dark.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -973,7 +973,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -993,7 +993,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/color/common_google_signin_btn_text_light.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
@@ -1065,7 +1065,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_settings.png.flat",
@@ -1121,7 +1121,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
@@ -1133,7 +1133,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1217,7 +1217,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
@@ -1249,7 +1249,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -1309,7 +1309,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -1337,7 +1337,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_icon.png.flat",
@@ -1489,7 +1489,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_icon_disabled.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -1513,7 +1513,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
@@ -1661,7 +1661,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
@@ -1677,15 +1677,15 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1737,7 +1737,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_info_outline_white_48dp.png.flat",
@@ -1817,7 +1817,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/color/common_google_signin_btn_tint.xml"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/color/common_google_signin_btn_tint.xml"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -1905,7 +1905,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/layout_design_navigation_item_separator.xml.flat",
@@ -1913,7 +1913,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -2005,7 +2005,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -2101,7 +2101,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -2213,7 +2213,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_settings.png.flat",
@@ -2225,7 +2225,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -2269,7 +2269,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -2281,7 +2281,7 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-hdpi-v4/common_full_open_on_phone.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-hdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -2341,6 +2341,6 @@
     },
     {
         "merged": "/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/43e9c52976e04be1fb61c450f79a5d07/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     }
 ]

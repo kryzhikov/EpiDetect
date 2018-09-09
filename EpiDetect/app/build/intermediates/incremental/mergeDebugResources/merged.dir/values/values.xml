@@ -1011,7 +1011,7 @@
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="design_tab_indicator_anim_duration_ms">300</integer>
-    <integer name="google_play_services_version">11717000</integer>
+    <integer name="google_play_services_version">11910000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="mtrl_btn_anim_delay_ms">100</integer>
     <integer name="mtrl_btn_anim_duration_ms">100</integer>
@@ -1070,6 +1070,7 @@
     <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
     <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
     <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
     <string name="common_google_play_services_notification_ticker">Google Play services error</string>
     <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
     <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
@@ -2823,6 +2824,7 @@
         <item name="android:textColor">@color/colorTextLight</item>
         <item name="android:textSize">15sp</item>
         <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
         <item name="android:layout_height">@dimen/ButtonHeight</item>
         <item name="android:layout_width">@dimen/ButtonWidth</item>
         <item name="android:background">@drawable/register_text_back</item>
