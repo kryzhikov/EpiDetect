@@ -8,20 +8,46 @@
     android:background="@color/colorPrimaryDark"
     android:layout_gravity="bottom">
 
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/navigation_bar_shape" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/navigation_bar_shape" />
+
+
+        <ImageView
+            android:layout_width="@dimen/SquareIconSize"
+            android:layout_height="@dimen/SquareIconSize"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/link"
+            android:contentDescription="" />
+
+        <ImageView
+            android:layout_width="@dimen/SquareIconSize"
+            android:layout_height="@dimen/SquareIconSize"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/settings_gears_1" />
+
+
+    </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:id="@+id/main_button"
-        android:layout_marginTop="-12dp">
+        android:layout_marginBottom="-16dp">
         <ImageView
             android:layout_width="@dimen/BigIconWidth"
             android:layout_height="@dimen/BigIconHeight"
@@ -30,28 +56,11 @@
         <ImageView
             android:layout_width="@dimen/SquareIconSize"
             android:layout_height="@dimen/SquareIconSize"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:id="@+id/main_button_icon"
             android:background="@drawable/four_squares_with_frame_shape"/>
     </RelativeLayout>
-
-
-        <ImageView
-            android:layout_width="@dimen/SquareIconSize"
-            android:layout_height="@dimen/SquareIconSize"
-            android:paddingLeft="12dp"
-            android:paddingRight="12dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:background="@drawable/link"
-            android:contentDescription=""
-            />
-
-    <ImageView
-        android:layout_width="@dimen/SquareIconSize"
-        android:layout_height="@dimen/SquareIconSize"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/settings_gears_1" />
 
 
 </RelativeLayout>

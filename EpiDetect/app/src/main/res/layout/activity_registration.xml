@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,7 +12,8 @@
         android:layout_width="@dimen/ButtonWidth"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
         android:id="@+id/reg_title">
         <ImageView
             android:layout_width="40dp"
@@ -32,6 +33,9 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_title"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/sign_up_btn"
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
@@ -60,10 +64,12 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/btn_men"
                     style="@style/DarkButtonSelector"
                     android:text="Мужской"/>
 
                 <Button
+                    android:id="@+id/btn_women"
                     style="@style/DarkButtonSelector"
                     android:text="Женский"/>
             </LinearLayout>
@@ -96,26 +102,31 @@
                 android:hint="Пароль"
                 android:inputType="textPassword"/>
 
-            <Button
-                style="@style/RedButton"
-                android:layout_gravity="center_horizontal"
-                android:text="Зарегистрироваться"
-                android:id="@+id/sign_up_btn"
-                android:layout_marginBottom="12dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp" />
 
-            <Button
-                style="@style/DarkButton"
-                android:layout_gravity="center_horizontal"
-                android:text="Войти"
-                android:id="@+id/sign_in_btn"
-                android:layout_marginBottom="16dp"/>
+
+
 
         </LinearLayout>
 
 
     </ScrollView>
 
+    <Button
+        style="@style/RedButton"
+        android:layout_gravity="center_horizontal"
+        android:text="Зарегистрироваться"
+        android:layout_above="@+id/sign_in_btn"
+        android:id="@+id/sign_up_btn"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
 
-</LinearLayout>
+    <Button
+        style="@style/DarkButton"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="Войти"
+        android:id="@+id/sign_in_btn"
+        android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>
