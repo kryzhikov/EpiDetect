@@ -206,8 +206,6 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        send.setVisibility(View.VISIBLE);
-        cls.setVisibility(View.VISIBLE);
     }
 
     @Override
