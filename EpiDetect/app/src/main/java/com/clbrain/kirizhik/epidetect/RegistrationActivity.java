@@ -31,6 +31,12 @@ public class RegistrationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
+        mName=findViewById(R.id.fio);
+        mNum=findViewById(R.id.emgnum);
+        mParNum=findViewById(R.id.parnum);
+        mDOB=findViewById(R.id.dob);
+        mEmail=(EditText)findViewById(R.id.mail);
+        mPassword=(EditText)findViewById(R.id.password);
         signUp =findViewById(R.id.sign_up_btn);
         signIn =findViewById(R.id.sign_in_btn);
         signIn.setOnClickListener(new View.OnClickListener() {
@@ -42,8 +48,7 @@ public class RegistrationActivity extends AppCompatActivity {
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Регистрация и тп
-                register(mEmail.getText().toString(),mPassword.getText().toString());
+                SignUp(mEmail.getText().toString(),mPassword.getText().toString());
             }
         });
         men = findViewById(R.id.btn_men);
@@ -62,6 +67,14 @@ public class RegistrationActivity extends AppCompatActivity {
                 men.setSelected(false);
             }
         });
+    }
+    private void SignUp(String email, String password) {
+        if (email.isEmpty()) Toast.makeText(this, "Input your email", Toast.LENGTH_SHORT).show();
+        else if (password.isEmpty())
+            Toast.makeText(this, "Input your password", Toast.LENGTH_SHORT).show();
+        else {
+            register(email, password);
+        }
     }
     private void register(String email, String password) {
         mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this,

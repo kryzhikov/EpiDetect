@@ -63,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
         else if (password.isEmpty())
             Toast.makeText(this, "Input your password", Toast.LENGTH_SHORT).show();
         else {
-            register(email, password);
+
             signing(email, password);
         }
     }
@@ -77,18 +77,6 @@ public class LoginActivity extends AppCompatActivity {
                             Toast.makeText(LoginActivity.this, "Welcome!", Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                             startActivity(intent);
-                        }
-                    }
-                });
-    }
-
-    private void register(String email, String password) {
-        mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this,
-                new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            Toast.makeText(LoginActivity.this, "Sign up is successful", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
