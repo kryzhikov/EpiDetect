@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Sep 09 11:01:08 MSK 2018
+0.baseType=DIRECTORY
+0.base=/home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

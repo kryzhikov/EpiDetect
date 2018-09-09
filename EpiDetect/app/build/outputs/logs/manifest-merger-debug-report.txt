@@ -1,0 +1,468 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.google.firebase:firebase-core:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/0ed179b9cb8f26822ce8c1810df2b497/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:design:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/342eef98965737ffc74c4706df06f7f0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/ebfd3d9ae6a63fe79a7b38ccfe375c92/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1819b51bc88258bb66042b4b2d8cd69f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/ce589174664f2efd2fee6e04723d3089/AndroidManifest.xml:16:1-21:12
+MERGED from [com.tapadoo.android:alerter:3.0.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/alerter-3.0.0.aar/2f0bf52adf822807c20546ae9c7faca3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.GrenderG:Toasty:1.3.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/Toasty-1.3.0.aar/cf39220b490f1ac81d965a83b698ac64/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:16:1-35:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/c26849c7c2c2adb6a87ff2b2d08e9be2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/6ded7f239ba77dd542968970468a44cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/391f8704c88d0a788421c8693207eb15/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/1ba3981ca016ed502632d360f4bbe43b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:16:1-47:12
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/d89acdb28c3925a28d379d672cd0e47e/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/c8e2892bdc443a86872296219016f69f/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/ead1ed72222c22a8eeb87ad13b4e1979/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.2.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/cfceca8640578587543457bd99f6d893/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/6b2a0380b62747c702e856d83fdac9de/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/93a63059b9dcc80428539d219c5fd43a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/840b7c34a89873448a3b28f219af4e13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/c32de5b5a2a375dc7603bfda9b7b6c57/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/a02b0601db386155e2b73e70d583e0ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/a4ded8a5a953a6e2ff11b356b644eb94/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/e244f11c4d53df941c222f718be22888/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/d4357327e056680ed1f864406b6af994/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/e2d57d3bbc5d19d65a4e4620d1d9a36f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/3135e6ff80e637a264df18fd81e57eae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/a7dfae16434a427b20a7e24f2404c32d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/d975cd24c1a22f38c00bb0dacc324dd7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/72bd8392432d1dadb1cadd5b4c248c15/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/055dcc3d86d00285bf81bf21c2a0b24c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/93af2f38c721ca71602db847357d6368/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/4df95fd3868c909f0330caa4d5df6aa5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ed6334aa7ad37a31bb9b6316adfc6f05/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/808c427701abe7565a948a1cbd3436d2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/14b82432ef162eaa3b1f62b4c24671e5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/e90075c6798fda531b377bdfc96c44d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/ce15239d56485712611d54501f6d72d9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/be8c18489ff8a01ce8c5bb903e7f9747/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1c856578345601e38c449beab019ea5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/fb0dd4b94b0278da73db6320d06a9395/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/82f7f270c2bc005a17734302d03382a0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/20e86f57dee3e86f6ef248b14781c262/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/901cbb00226f5c404777235b0ebd3ede/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/7ef1dc5db81ae1b2f9d930be8102b9b6/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/7803ac1a6f76f23200da80156ff9387b/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/91bcae833a967f8ce39a301b4d66563f/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/7418e1ecea4b0d8957769eafababbdc9/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/7bf114eeb89b614639304dc525e27291/AndroidManifest.xml:2:1-6:12
+INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:6:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.BLUETOOTH_PRIVILEGED
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:10:22-63
+uses-permission#android.permission.INTERNET
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:13:22-68
+application
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:15:5-37:19
+MERGED from [com.google.firebase:firebase-core:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/0ed179b9cb8f26822ce8c1810df2b497/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/0ed179b9cb8f26822ce8c1810df2b497/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:design:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/342eef98965737ffc74c4706df06f7f0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/342eef98965737ffc74c4706df06f7f0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1819b51bc88258bb66042b4b2d8cd69f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1819b51bc88258bb66042b4b2d8cd69f/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/ce589174664f2efd2fee6e04723d3089/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/ce589174664f2efd2fee6e04723d3089/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/d89acdb28c3925a28d379d672cd0e47e/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/d89acdb28c3925a28d379d672cd0e47e/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/c8e2892bdc443a86872296219016f69f/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/c8e2892bdc443a86872296219016f69f/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/ead1ed72222c22a8eeb87ad13b4e1979/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/ead1ed72222c22a8eeb87ad13b4e1979/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/cfceca8640578587543457bd99f6d893/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/cfceca8640578587543457bd99f6d893/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/6b2a0380b62747c702e856d83fdac9de/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/6b2a0380b62747c702e856d83fdac9de/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/72bd8392432d1dadb1cadd5b4c248c15/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/72bd8392432d1dadb1cadd5b4c248c15/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/055dcc3d86d00285bf81bf21c2a0b24c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/055dcc3d86d00285bf81bf21c2a0b24c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/82f7f270c2bc005a17734302d03382a0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/82f7f270c2bc005a17734302d03382a0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/20e86f57dee3e86f6ef248b14781c262/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/20e86f57dee3e86f6ef248b14781c262/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/901cbb00226f5c404777235b0ebd3ede/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/901cbb00226f5c404777235b0ebd3ede/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/7ef1dc5db81ae1b2f9d930be8102b9b6/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/7ef1dc5db81ae1b2f9d930be8102b9b6/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/7803ac1a6f76f23200da80156ff9387b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/7803ac1a6f76f23200da80156ff9387b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/91bcae833a967f8ce39a301b4d66563f/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/91bcae833a967f8ce39a301b4d66563f/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/7418e1ecea4b0d8957769eafababbdc9/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/7418e1ecea4b0d8957769eafababbdc9/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/7bf114eeb89b614639304dc525e27291/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/7bf114eeb89b614639304dc525e27291/AndroidManifest.xml:5:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/72bd8392432d1dadb1cadd5b4c248c15/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:18:9-41
+	android:roundIcon
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:19:9-54
+	android:icon
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:21:9-40
+activity#com.clbrain.kirizhik.epidetect.MainActivity
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:22:9-24:20
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:22:19-47
+activity#com.clbrain.kirizhik.epidetect.LoginActivity
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:25:9-27:20
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:25:19-48
+activity#com.clbrain.kirizhik.epidetect.ConnectActivity
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:28:9-30:20
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:28:19-50
+activity#com.clbrain.kirizhik.epidetect.RegistrationActivity
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:31:9-36:20
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:31:19-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml:34:27-74
+uses-sdk
+INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-core:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/0ed179b9cb8f26822ce8c1810df2b497/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/0ed179b9cb8f26822ce8c1810df2b497/AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:design:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/342eef98965737ffc74c4706df06f7f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/342eef98965737ffc74c4706df06f7f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/ebfd3d9ae6a63fe79a7b38ccfe375c92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/ebfd3d9ae6a63fe79a7b38ccfe375c92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1819b51bc88258bb66042b4b2d8cd69f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1819b51bc88258bb66042b4b2d8cd69f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/ce589174664f2efd2fee6e04723d3089/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/ce589174664f2efd2fee6e04723d3089/AndroidManifest.xml:17:5-43
+MERGED from [com.tapadoo.android:alerter:3.0.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/alerter-3.0.0.aar/2f0bf52adf822807c20546ae9c7faca3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tapadoo.android:alerter:3.0.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/alerter-3.0.0.aar/2f0bf52adf822807c20546ae9c7faca3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.3.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/Toasty-1.3.0.aar/cf39220b490f1ac81d965a83b698ac64/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.3.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/Toasty-1.3.0.aar/cf39220b490f1ac81d965a83b698ac64/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/c26849c7c2c2adb6a87ff2b2d08e9be2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/c26849c7c2c2adb6a87ff2b2d08e9be2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/6ded7f239ba77dd542968970468a44cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/6ded7f239ba77dd542968970468a44cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/391f8704c88d0a788421c8693207eb15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/391f8704c88d0a788421c8693207eb15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/1ba3981ca016ed502632d360f4bbe43b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/1ba3981ca016ed502632d360f4bbe43b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/d89acdb28c3925a28d379d672cd0e47e/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/d89acdb28c3925a28d379d672cd0e47e/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/c8e2892bdc443a86872296219016f69f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/c8e2892bdc443a86872296219016f69f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/ead1ed72222c22a8eeb87ad13b4e1979/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/ead1ed72222c22a8eeb87ad13b4e1979/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/cfceca8640578587543457bd99f6d893/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/cfceca8640578587543457bd99f6d893/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/6b2a0380b62747c702e856d83fdac9de/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/6b2a0380b62747c702e856d83fdac9de/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/93a63059b9dcc80428539d219c5fd43a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/93a63059b9dcc80428539d219c5fd43a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/840b7c34a89873448a3b28f219af4e13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/840b7c34a89873448a3b28f219af4e13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/c32de5b5a2a375dc7603bfda9b7b6c57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/c32de5b5a2a375dc7603bfda9b7b6c57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/a02b0601db386155e2b73e70d583e0ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/a02b0601db386155e2b73e70d583e0ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/a4ded8a5a953a6e2ff11b356b644eb94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/a4ded8a5a953a6e2ff11b356b644eb94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/e244f11c4d53df941c222f718be22888/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/e244f11c4d53df941c222f718be22888/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/d4357327e056680ed1f864406b6af994/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/d4357327e056680ed1f864406b6af994/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/e2d57d3bbc5d19d65a4e4620d1d9a36f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/e2d57d3bbc5d19d65a4e4620d1d9a36f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/3135e6ff80e637a264df18fd81e57eae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/3135e6ff80e637a264df18fd81e57eae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/a7dfae16434a427b20a7e24f2404c32d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/a7dfae16434a427b20a7e24f2404c32d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/d975cd24c1a22f38c00bb0dacc324dd7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/d975cd24c1a22f38c00bb0dacc324dd7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/72bd8392432d1dadb1cadd5b4c248c15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/72bd8392432d1dadb1cadd5b4c248c15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/055dcc3d86d00285bf81bf21c2a0b24c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/055dcc3d86d00285bf81bf21c2a0b24c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/93af2f38c721ca71602db847357d6368/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/93af2f38c721ca71602db847357d6368/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/4df95fd3868c909f0330caa4d5df6aa5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/4df95fd3868c909f0330caa4d5df6aa5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ed6334aa7ad37a31bb9b6316adfc6f05/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ed6334aa7ad37a31bb9b6316adfc6f05/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/808c427701abe7565a948a1cbd3436d2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/808c427701abe7565a948a1cbd3436d2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/14b82432ef162eaa3b1f62b4c24671e5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/14b82432ef162eaa3b1f62b4c24671e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/e90075c6798fda531b377bdfc96c44d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/e90075c6798fda531b377bdfc96c44d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/ce15239d56485712611d54501f6d72d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/ce15239d56485712611d54501f6d72d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/be8c18489ff8a01ce8c5bb903e7f9747/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/be8c18489ff8a01ce8c5bb903e7f9747/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1c856578345601e38c449beab019ea5e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1c856578345601e38c449beab019ea5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/fb0dd4b94b0278da73db6320d06a9395/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/fb0dd4b94b0278da73db6320d06a9395/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/82f7f270c2bc005a17734302d03382a0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/82f7f270c2bc005a17734302d03382a0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/20e86f57dee3e86f6ef248b14781c262/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/20e86f57dee3e86f6ef248b14781c262/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/901cbb00226f5c404777235b0ebd3ede/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/901cbb00226f5c404777235b0ebd3ede/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/7ef1dc5db81ae1b2f9d930be8102b9b6/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/7ef1dc5db81ae1b2f9d930be8102b9b6/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/7803ac1a6f76f23200da80156ff9387b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/7803ac1a6f76f23200da80156ff9387b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/91bcae833a967f8ce39a301b4d66563f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/91bcae833a967f8ce39a301b4d66563f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/7418e1ecea4b0d8957769eafababbdc9/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/7418e1ecea4b0d8957769eafababbdc9/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/7bf114eeb89b614639304dc525e27291/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/7bf114eeb89b614639304dc525e27291/AndroidManifest.xml:4:5-43
+INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/cfceca8640578587543457bd99f6d893/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+		ADDED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kirizhik/Рабочий стол/SberHack/EpiDetect/EpiDetect/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/af9a40e028d97a9f9429c7c6f3e7062a/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/bc1ba56b0b7ad810d0d43d875c122376/AndroidManifest.xml:33:16-90
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/202845b4be9b412577003d2e277d0960/AndroidManifest.xml:19:19-85
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:25:17-71
+permission#com.clbrain.kirizhik.epidetect.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:27:22-76
+uses-permission#com.clbrain.kirizhik.epidetect.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:27:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:31:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:31:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:31:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:31:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:32:13-35:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.clbrain.kirizhik.epidetect
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:32:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:33:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:33:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:34:27-58
+category#com.clbrain.kirizhik.epidetect
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:34:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:40:9-44:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:40:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:40:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:41:13-43:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:41:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:42:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/e2d9aa27bd3c3821089bd5fe0ece4fcf/AndroidManifest.xml:42:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/d89acdb28c3925a28d379d672cd0e47e/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/d89acdb28c3925a28d379d672cd0e47e/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/d89acdb28c3925a28d379d672cd0e47e/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/d89acdb28c3925a28d379d672cd0e47e/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/d89acdb28c3925a28d379d672cd0e47e/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/ead1ed72222c22a8eeb87ad13b4e1979/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/ead1ed72222c22a8eeb87ad13b4e1979/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.6.0] /home/kirizhik/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/ead1ed72222c22a8eeb87ad13b4e1979/AndroidManifest.xml:20:20-65
