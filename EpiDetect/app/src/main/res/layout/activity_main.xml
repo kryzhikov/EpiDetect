@@ -7,6 +7,19 @@
     tools:context=".MainActivity"
     android:background="@color/colorPrimaryDark">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="История болезни:"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorTextLight"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:id="@+id/title_illness_history"
+        android:textSize="24sp"
+        android:layout_below="@+id/prof"/>
+
     <include
         android:id="@+id/prof"
         layout="@layout/profile"
@@ -22,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/prof" />
+        android:layout_below="@+id/title_illness_history" />
 
 
     <Button

@@ -31,41 +31,40 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <AutoCompleteTextView android:id="@+id/email" android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:hint="@string/prompt_email"
-            android:inputType="textEmailAddress" android:maxLines="1"
+        <AutoCompleteTextView android:id="@+id/email"
+            style="@style/StandartEditText"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_marginBottom="10dp" />
+
+        <EditText android:id="@+id/password"
+            style="@style/StandartEditText"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/prompt_password"
+            android:imeActionLabel="@string/action_sign_in"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
             android:singleLine="true"
             android:layout_marginBottom="10dp"
-            android:textColorHint="@color/colorTextHint"
             android:textColor="@color/colorTextLight" />
 
-        <EditText android:id="@+id/password" android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:hint="@string/prompt_password"
-            android:imeActionLabel="@string/action_sign_in"
-            android:imeOptions="actionUnspecified" android:inputType="textPassword"
-            android:maxLines="1" android:singleLine="true"
-            android:layout_marginBottom="10dp"
-            android:textColorHint="@color/colorTextHint"
-            android:textColor="@color/colorTextLight" />
-
-        <Button android:id="@+id/email_sign_in_button"
+        <Button
+            android:id="@+id/email_sign_in_button"
             style="@style/RedButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/action_sign_in"
-            android:textStyle="bold"
-            android:textColor="@color/colorTextLight" />
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        style="@style/DarkButton"
         android:text="@string/sign_up"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:id="@+id/signUpTextView"
-        android:autoLink="web"
-        android:textColor="@color/colorTextLight" />
+        android:id="@+id/signUpTextView" />
 
 </RelativeLayout>
