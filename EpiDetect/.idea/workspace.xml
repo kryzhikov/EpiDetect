@@ -3548,7 +3548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536478637777</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="small changes[2]">
+      <created>1536478648369</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1536478648369</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3669,7 +3676,8 @@
     <MESSAGE value="New button change activity action" />
     <MESSAGE value="Cleared Connection act" />
     <MESSAGE value="small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
+    <MESSAGE value="small changes[2]" />
+    <option name="LAST_COMMIT_MESSAGE" value="small changes[2]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
